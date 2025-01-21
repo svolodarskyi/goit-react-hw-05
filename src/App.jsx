@@ -5,10 +5,10 @@ import Navigation from './components/Navigation/Navigation';
 import MovieCast from './components/MovieCast/MovieCast';
 import MovieReviews from './components/MovieReviews/MovieReviews';
 
-const HomePage = lazy(() => import('./pages/HomePage'));
-const MoviesPage = lazy(() => import('./pages/MoviesPage'));
-const MovieDetailsPage = lazy(() => import('./pages/MovieDetailsPage'));
-const NotFoundPage = lazy(() => import('./pages/NotFoundPage'));
+const HomePage = lazy(() => import('./Pages/HomePage'));
+const MoviesPage = lazy(() => import('./Pages/MoviesPage'));
+const MovieDetailsPage = lazy(() => import('./Pages/MovieDetailsPage'));
+const NotFoundPage = lazy(() => import('./Pages/NotFoundPage'));
 
 export const App = () => {
   // const navigate = useNavigate();
