@@ -1,0 +1,36 @@
+.fieldContainer {
+  position: relative;
+  width: 100%;
+}
+
+.searchBar {
+  height: 2.5rem;
+  width: 100%;
+  padding: 3px 20px;
+
+  border-top: 1px solid rgb(244, 241, 241);
+  border-bottom: 1px solid rgb(244, 241, 241);
+  /* background-color: rgb(244, 241, 241); */
+}
+
+.searchBar:hover {
+  /* background: rgb(232, 227, 227); */
+  border-top: 1px solid rgb(232, 227, 227);
+  border-bottom: 1px solid rgb(232, 227, 227);
+  outline: none;
+}
+
+.searchBar:focus {
+  border-top: 1px solid rgb(232, 227, 227);
+  border-bottom: 1px solid rgb(232, 227, 227);
+  background: none;
+  outline: none;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  color: rgb(140, 144, 143);
+  font-size: large;
+}
