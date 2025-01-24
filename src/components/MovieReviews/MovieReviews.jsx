@@ -22,9 +22,10 @@ const MovieReviews = () => {
     return <div>Error ...</div>;
   }
 
-  if (movieReview.results.length < 0) {
+  if (movieReview?.results) {
     return <div>No reviews yet. Leave first review ...</div>;
   }
+
   return (
     <ul className={css.reviewList}>
       {movieReview.results.map(item => (
